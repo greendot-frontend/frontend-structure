@@ -1,0 +1,60 @@
+/* ============================================================================
+   button.scss
+   ========================================================================= */
+/**
+ * Krátký popis komponenty a její struktura
+ */
+
+ /* Struktura 
+ .button {}
+ .button--modifikator {}
+ .button__element {}
+ .button__element--modifikator {}
+ */ 
+
+
+ // BLOCK - button 
+.button {
+  padding: 10px;
+  @include respond(sm) {
+    padding: 20px;
+  }
+  @include respond(md) {
+    padding: 20px;
+  }
+  @include respond(lg) {
+    padding: 30px;
+  }
+  @include respond(xl) {
+    padding: 40px;
+  }
+  @include respond(xxl) {
+    padding: 50px;
+  }
+  &:hover {
+    color: blue;
+    @include respond(lg) {
+      color: red;
+    }
+  }
+}
+
+// BLOCK--MODIFIKATOR
+.button--modificator {
+  margin: 10px;
+}
+
+// BLOCK__ELEMENT
+.button__element {
+  font-size: 10px;
+}
+
+// BLOCK__ELEMENT--MODIFIKATOR {
+.block__element--modifikator {
+  font-size: 20px;
+}
+
+
+
+
+

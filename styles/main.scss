@@ -1,0 +1,50 @@
+@charset 'UTF-8';
+
+/* Using The 7-1 Pattern */
+
+// Vendors
+@import
+'vendors/bootstrap',
+'vendors/normalize';
+
+
+// Abstracts
+@import
+  'abstracts/functions',
+  'abstracts/grid',
+  'abstracts/mixins',
+  'abstracts/spacing',
+  'abstracts/variables';
+ 
+
+// Base
+@import
+  'base/animations',
+  'base/base',
+  'base/typography',
+  'base/utilities';
+
+  
+// Components
+@import
+  'components/component';
+
+// Layout
+@import
+  'layout/navigation',
+  'layout/objects',
+  'layout/sections';
+
+// Pages
+@import
+  'pages/homepage';
+
+// Themes
+@import
+  'themes/default';
+
+
+
+
+
+
